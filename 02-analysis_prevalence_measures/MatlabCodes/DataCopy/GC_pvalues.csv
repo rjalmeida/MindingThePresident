@@ -1,0 +1,93 @@
+"","x"
+"Tax Increase, Tax Decrease -> govreceipts",9.61268067254907e-05
+"Tax Increase, Tax Decrease -> d_revenue_ratio",0.000403471872798031
+"Tax Increase, Tax Decrease -> rr_all",3.42168397278959e-08
+"Tax Increase, Tax Decrease -> rr_exo",0.000267702351023879
+"Tax Increase, Tax Decrease -> rr_all_pv",1.21620763648432e-06
+"Tax Increase, Tax Decrease -> rr_exo_pv",0.00102382219087424
+"Tax Increase, Tax Decrease -> mr_unant",0.0050035662691911
+"Tax Increase, Tax Decrease -> implicit_tax_rate",0.0767092705567199
+"Tax Increase, Tax Decrease -> tax_personal",0.0182806811691158
+"Tax Increase, Tax Decrease -> tax_corporate",0.0324399870983626
+"Tax Increase, Tax Decrease -> tax_payroll",0.0328439454504385
+"Tax Increase, Tax Decrease -> Social Services",0.0387638913198685
+"Tax Increase, Tax Decrease -> Legislative Process",0.571050712084299
+"Tax Increase, Tax Decrease -> Persuasive Rhetoric",0.347762994594547
+"Tax Increase, Tax Decrease -> Public Administration",0.0930842223231286
+"Tax Increase, Tax Decrease -> Natural Resources Energy & Technology",0.138324199694534
+"Tax Increase, Tax Decrease -> Health Care",0.0308407749622714
+"Tax Increase, Tax Decrease -> Proclamations of Unity & Patriotism",0.176828132973378
+"Tax Increase, Tax Decrease -> Cold War",0.807105250267403
+"Tax Increase, Tax Decrease -> Nature & Environment",0.756059676322259
+"Tax Increase, Tax Decrease -> Tradition and Conservative Values",0.126094970216485
+"Tax Increase, Tax Decrease -> Middle East",0.812968325027846
+"Tax Increase, Tax Decrease -> Informal Speech",0.844042732228873
+"Tax Increase, Tax Decrease -> Executive Orders",0.561789633148186
+"Tax Increase, Tax Decrease -> War on Terror",0.188588403648007
+"Tax Increase, Tax Decrease -> Interviews",0.361908911217535
+"Tax Increase, Tax Decrease -> Crime",0.351991357993734
+"Tax Increase, Tax Decrease -> American Values",0.0107729933494169
+"Tax Increase, Tax Decrease -> Paying Respect to Armed Forces",0.223488331713623
+"Tax Increase, Tax Decrease -> National Security & Emergencies",0.0913754366056051
+"Tax Increase, Tax Decrease -> Economic Development",0.797018924503042
+"Tax Increase, Tax Decrease -> International Relations/Diplomacy",0.487900064799048
+"Tax Increase, Tax Decrease -> Freedom & Patriotism",0.892942083595675
+"Tax Increase, Tax Decrease -> Expressing Gratitude in Speeches",0.628381025006086
+"Tax Increase, Tax Decrease -> International Economics & Trade",0.231250394833839
+"Tax Increase, Tax Decrease -> gdp",0.0411657417300516
+"Tax Increase, Tax Decrease -> consumption",0.246714239629747
+"Tax Increase, Tax Decrease -> investment",0.0139966557016133
+"Tax Increase, Tax Decrease -> govspending",0.0459167282837391
+"Tax Increase, Tax Decrease -> govdebt",0.0245695748133042
+"Tax Increase, Tax Decrease -> 3mtbill",0.0352299937587491
+"Tax Increase, Tax Decrease -> FedFundsRate",0.126441709999815
+"Tax Increase, Tax Decrease -> unrate",0.0440248138450972
+"Tax Increase, Tax Decrease -> inflation",0.412350484499288
+"Tax Increase, Tax Decrease -> sp500",0.39057528456233
+"Tax Increase, Tax Decrease -> spending_news",0.935539302071538
+"govreceipts -> Tax Increase, Tax Decrease",0.617976830316017
+"d_revenue_ratio -> Tax Increase, Tax Decrease",0.130613727274097
+"rr_all -> Tax Increase, Tax Decrease",0.245887810190298
+"rr_exo -> Tax Increase, Tax Decrease",0.930589684548983
+"rr_all_pv -> Tax Increase, Tax Decrease",0.131470687911953
+"rr_exo_pv -> Tax Increase, Tax Decrease",0.101968655219152
+"mr_unant -> Tax Increase, Tax Decrease",0.208323752695413
+"implicit_tax_rate -> Tax Increase, Tax Decrease",0.414679357318638
+"tax_personal -> Tax Increase, Tax Decrease",0.394290811300064
+"tax_corporate -> Tax Increase, Tax Decrease",0.647870033454392
+"tax_payroll -> Tax Increase, Tax Decrease",0.589126453938103
+"Social Services -> Tax Increase, Tax Decrease",0.484224449923624
+"Legislative Process -> Tax Increase, Tax Decrease",0.155500350904124
+"Persuasive Rhetoric -> Tax Increase, Tax Decrease",0.0171103927738498
+"Public Administration -> Tax Increase, Tax Decrease",0.861001147601329
+"Natural Resources Energy & Technology -> Tax Increase, Tax Decrease",0.0445983837869691
+"Health Care -> Tax Increase, Tax Decrease",0.304622159757105
+"Proclamations of Unity & Patriotism -> Tax Increase, Tax Decrease",0.474962225900844
+"Cold War -> Tax Increase, Tax Decrease",0.55772356595563
+"Nature & Environment -> Tax Increase, Tax Decrease",0.484803391522083
+"Tradition and Conservative Values -> Tax Increase, Tax Decrease",0.436604975051028
+"Middle East -> Tax Increase, Tax Decrease",0.641099764550746
+"Informal Speech -> Tax Increase, Tax Decrease",0.365328221814638
+"Executive Orders -> Tax Increase, Tax Decrease",0.321521778732395
+"War on Terror -> Tax Increase, Tax Decrease",0.0810181800199697
+"Interviews -> Tax Increase, Tax Decrease",0.125703323537893
+"Crime -> Tax Increase, Tax Decrease",0.478751546858767
+"American Values -> Tax Increase, Tax Decrease",0.873688946217967
+"Paying Respect to Armed Forces -> Tax Increase, Tax Decrease",0.792554007051564
+"National Security & Emergencies -> Tax Increase, Tax Decrease",0.86728067506855
+"Economic Development -> Tax Increase, Tax Decrease",0.0784716240605164
+"International Relations/Diplomacy -> Tax Increase, Tax Decrease",0.0551695419797065
+"Freedom & Patriotism -> Tax Increase, Tax Decrease",0.985141661509059
+"Expressing Gratitude in Speeches -> Tax Increase, Tax Decrease",0.174159320914498
+"International Economics & Trade -> Tax Increase, Tax Decrease",0.0950496488911982
+"gdp -> Tax Increase, Tax Decrease",0.130621815444171
+"consumption -> Tax Increase, Tax Decrease",0.165431520470029
+"investment -> Tax Increase, Tax Decrease",0.232961010194003
+"govspending -> Tax Increase, Tax Decrease",0.154214422628299
+"govdebt -> Tax Increase, Tax Decrease",0.0546391703695628
+"3mtbill -> Tax Increase, Tax Decrease",0.310193981333632
+"FedFundsRate -> Tax Increase, Tax Decrease",0.0495975814882786
+"unrate -> Tax Increase, Tax Decrease",0.610852067909027
+"inflation -> Tax Increase, Tax Decrease",0.395265319046893
+"sp500 -> Tax Increase, Tax Decrease",0.753979571780429
+"spending_news -> Tax Increase, Tax Decrease",0.322367147081856
