@@ -16,6 +16,47 @@ The replicator should expect the code to run for about 2 weeks for the Python/C+
 3 minutes for the Python, Matlab and R code that creates all additional analysis and figures.
 
 
+## Replication from GitHub
+
+This GitHub repository contains the code and data needed for the econometric analysis in
+`02-analysis_prevalence_measures` (Stage 2). It also includes the published topic-model figures in
+`01-construction_prevalence_measures/Graphs`. The additional inputs and intermediate results for
+constructing the topic-prevalence measures (Stage 1) are available in the
+[complete openICPSR replication package (V1)](https://doi.org/10.3886/E205441V1).
+
+### Econometric analysis (GitHub only)
+
+With R and MATLAB installed, run the following from the repository root:
+
+```bash
+./00-setup/analysis_replication.sh
+```
+
+This script runs the R analyses (`0_setup.R`, `GC_analysis.R`, and `Correlation_analysis.R`)
+and the MATLAB analyses (`IRs_Analysis.m`, `Predict_Analysis.m`, and `Plot_pValues_GC.m`).
+It uses the input files already included in `02-analysis_prevalence_measures` and creates
+output directories when needed. It does not re-estimate the topic model or regenerate the
+Stage 1 figures.
+
+### Topic-model analysis (additional files from openICPSR)
+
+To reproduce Stage 1 calculations or regenerate the topic-model figures, download the
+[openICPSR replication package (V1)](https://doi.org/10.3886/E205441V1) and copy its
+`01-construction_prevalence_measures/Data/` and `01-construction_prevalence_measures/Results/`
+directories into the same locations in your GitHub checkout:
+
+```text
+01-construction_prevalence_measures/
+├── Data/      # Inputs, including the processed presidential communications
+├── Results/   # Intermediate estimates, including theta1.csv and theta2.csv
+└── Graphs/    # Published figures (already included on GitHub)
+```
+
+The Stage 1 estimation takes approximately two weeks on a standard desktop computer.
+Researchers who only want to inspect the published figures do not need to regenerate them.
+The processed presidential communications data are shared for replication purposes, subject
+to the permissions described below.
+
 ## Data Availability and Provenance Statements
 
 ### Statement about Rights
@@ -35,6 +76,8 @@ All data citations should be made to the original data providers.
 
 
 ### Details on each Data Source
+
+The `Provided` column refers to the full openICPSR replication package; not all Stage 1 files are included in this GitHub repository.
 
 | Data.Name                         | Data.Files           | Location                                 | Provided | Citation                                                |
 |-----------------------------------|----------------------|------------------------------------------|----------|---------------------------------------------------------|
@@ -419,6 +462,10 @@ These are the R and Matlab programs.
 The code is licensed under a CC-BY license. See [LICENSE.TXT](LICENSE.TXT) or [CC-BY](https://creativecommons.org/licenses/by/4.0/) for details.
 
 ## Instructions to Replicators
+
+For the GitHub-only econometric workflow, use `00-setup/analysis_replication.sh` as described above.
+The original instructions below describe the complete replication package and may require additional
+Stage 1 files from openICPSR.
 
 All software, dependencies and requirements are listed in the previous sections and should be installed.
 The bash scripts in the folder `00-setup` assume a Linux environment (e.g., Ubuntu).
