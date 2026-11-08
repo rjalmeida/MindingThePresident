@@ -26,17 +26,34 @@ constructing the topic-prevalence measures (Stage 1) are available in the
 
 ### Econometric analysis (GitHub only)
 
-With R and MATLAB installed, run the following from the repository root:
+The econometric analysis requires R and MATLAB (with the Statistics and Machine Learning
+Toolbox). Run the following commands from the repository root.
+
+**First-time replication (install R dependencies and run the analyses):**
+
+```bash
+./00-setup/analysis_replication.sh --install
+```
+
+**Subsequent replications (skip installation):**
 
 ```bash
 ./00-setup/analysis_replication.sh
 ```
 
-This script runs the R analyses (`0_setup.R`, `GC_analysis.R`, and `Correlation_analysis.R`)
-and the MATLAB analyses (`IRs_Analysis.m`, `Predict_Analysis.m`, and `Plot_pValues_GC.m`).
-It uses the input files already included in `02-analysis_prevalence_measures` and creates
-output directories when needed. It does not re-estimate the topic model or regenerate the
-Stage 1 figures.
+The default is `--no-install`; it can also be specified explicitly. Run
+`./00-setup/analysis_replication.sh --help` to see the available options.
+
+With `--install`, the script first runs `0_setup.R` to install the R dependencies listed
+under Software Requirements below. Installing R packages from source may require additional
+system libraries or build tools, depending on the operating system. MATLAB must be installed
+separately.
+
+The script then runs the R analyses (`GC_analysis.R` and `Correlation_analysis.R`) and the
+MATLAB analyses (`IRs_Analysis.m`, `Predict_Analysis.m`, and `Plot_pValues_GC.m`) in a
+single MATLAB session. It uses the input files already included in
+`02-analysis_prevalence_measures` and creates output directories when needed. It does not
+re-estimate the topic model or regenerate the Stage 1 figures.
 
 ### Topic-model analysis (additional files from openICPSR)
 
@@ -463,9 +480,10 @@ The code is licensed under a CC-BY license. See [LICENSE.TXT](LICENSE.TXT) or [C
 
 ## Instructions to Replicators
 
-For the GitHub-only econometric workflow, use `00-setup/analysis_replication.sh` as described above.
-The original instructions below describe the complete replication package and may require additional
-Stage 1 files from openICPSR.
+For the GitHub-only econometric workflow, run `00-setup/analysis_replication.sh --install`
+on the first run and `00-setup/analysis_replication.sh` on subsequent runs, as described
+above. The original instructions below describe the complete replication package and may
+require additional Stage 1 files from openICPSR.
 
 All software, dependencies and requirements are listed in the previous sections and should be installed.
 The bash scripts in the folder `00-setup` assume a Linux environment (e.g., Ubuntu).
